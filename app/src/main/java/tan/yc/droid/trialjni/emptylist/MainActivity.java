@@ -38,6 +38,10 @@ public class MainActivity extends ActionBarActivity {
             statusMessage.setText("Data not loaded. (Maybe the listview is empty?)");
 
         }
+        else
+        {
+            statusMessage.setText("HELLO WORLD! There are a list of items in the ListView.");
+        }
 
 
     }
